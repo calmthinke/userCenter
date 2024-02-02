@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: lxyuniverse
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver #com.mysql.jdbc.Driveruser
+    url: jdbc:mysql://localhost:3306/lxyuniverse
+    username: root
+    password: admin123
+
+  #  session失效时间
+  session:
+    timeout: 86400
+
